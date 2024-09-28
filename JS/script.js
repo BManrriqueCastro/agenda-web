@@ -44,7 +44,6 @@ function removeEvent(button) {
     // 'button' es el botón que fue clicado.
     // Usamos 'button.parentNode' para seleccionar el elemento padre del botón, que es el 'li'.
     const li = button.parentNode;
-
     // Eliminamos este 'li' de la lista, quitando así el evento de la agenda.
     li.remove();
 }
