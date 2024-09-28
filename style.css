@@ -112,7 +112,6 @@ li button:hover {
     transform: scale(1.05);
 }
 
-/* Media Queries for responsiveness */
 @media (max-width: 768px) {
     .container {
         padding: 15px;
